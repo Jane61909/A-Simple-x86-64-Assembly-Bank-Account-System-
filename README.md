@@ -8,3 +8,10 @@ The fields in the Account struct include:
 5) bank_state_arr:  An array of pointers to 5 strings highlighting the bank information (e.g., city,   
 state, etc) 
 6) trans_amt: A 64-bit floating point value storing the current transaction amount (e.g., 500.83 )
+
+Operating system used for this project was Ubuntu 22.04 LTS. 
+
+1) install NASM: **sudo apt install nasm**
+2) Compile and link the x86-64 assembly program into an executable on a Linux system using: **nasm -felf64 str.asm && gcc -o str str.o -no-pie**
+
+
